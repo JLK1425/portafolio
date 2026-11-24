@@ -94,7 +94,8 @@ export async function getRepos(user: string): Promise<Repo[]> {
     );
     if (!res.ok) return [];
     const repos = (await res.json()) as Repo[];
-    return repos.filter((r) => !r.fork && r.name.toLowerCase() !== user.toLowerCase());
+    const ocultos = new Set([user.toLowerCase(), "portafolio", `${user.toLowerCase()}.github.io`]);
+    return repos.filter((r) => !r.fork && !ocultos.has(r.name.toLowerCase()));
   } catch {
     return [];
   }
