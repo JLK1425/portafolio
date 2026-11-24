@@ -1,4 +1,7 @@
-import data from "../../content/portfolio.json";
+import dataEs from "../../content/portfolio.json";
+import dataEn from "../../content/portfolio.en.json";
+
+export type Lang = "es" | "en";
 
 export type EstadoSkill = "autodeclarado" | "demostrado" | "verificado";
 
@@ -68,13 +71,19 @@ export interface Portfolio {
   formacion: { titulo: string; institucion: string; periodo: string }[];
 }
 
-export const portfolio = data as Portfolio;
+export const portfolios: Record<Lang, Portfolio> = {
+  es: dataEs as Portfolio,
+  en: dataEn as Portfolio,
+};
+
+/** Versión en español (fuente principal) */
+export const portfolio = portfolios.es;
 
 /** Nombre legible de una evidencia (gestión o proyecto) por su id */
-export function nombreEvidencia(id: string): string {
-  const g = portfolio.gestiones.find((x) => x.id === id);
+export function nombreEvidencia(data: Portfolio, id: string): string {
+  const g = data.gestiones.find((x) => x.id === id);
   if (g) return g.titulo;
-  const p = portfolio.proyectos.find((x) => x.id === id);
+  const p = data.proyectos.find((x) => x.id === id);
   return p ? p.nombre : id;
 }
 

@@ -12,7 +12,7 @@ npm run build    # genera out/ para publicar
 
 ## Cómo se actualiza
 
-Todo el contenido vive en **`content/portfolio.json`**. No hay que tocar código para:
+Todo el contenido vive en **`content/portfolio.json`** (español) y **`content/portfolio.en.json`** (inglés, en `/en`). Al cambiar uno, actualiza el otro. No hay que tocar código para:
 
 - **Agregar una gestión de TI** → nueva entrada en `gestiones` (contexto, accion, resultado).
 - **Agregar un proyecto** → nueva entrada en `proyectos` (`destacado: true` para que salga arriba).

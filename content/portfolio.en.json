@@ -1,0 +1,429 @@
+{
+  "perfil": {
+    "nombre": "Joel A. Abreu De la Rosa",
+    "nombreCorto": "Joel Abreu",
+    "titulo": "Head of Technology & IT Operations",
+    "subtitulo": "Full-Stack Developer",
+    "roles": [
+      "Co-founder of Twin Mindz",
+      "Head of IT at Grupo Corporativo Peguero"
+    ],
+    "pitch": "I lead technology for a group of 5 brands and 13+ locations, and I build the software that runs it: from infrastructure and Microsoft 365 to CRMs, online stores and AI-powered tools.",
+    "ubicacion": "Dominican Republic",
+    "email": "jlab.abreu@gmail.com",
+    "github": "JLK1425",
+    "linkedin": "https://www.linkedin.com/in/joel-abreu-dev",
+    "foto": "/foto.jpg",
+    "fotoPerfil": "/perfil.png",
+    "web": "https://joelabreu.twinmindz.com",
+    "cv": "",
+    "idiomas": [
+      "Spanish (native)",
+      "English (fluent)"
+    ],
+    "disponible": "Open to consulting and development projects",
+    "sobreMi": [
+      "I combine two profiles that rarely go together: IT management for a business group and custom software development. Through Twin Mindz, the technology and digital marketing company I co-founded in 2023, I lead technology for Grupo Corporativo Peguero: infrastructure, corporate email, domains, point-of-sale systems, support and IT governance.",
+      "When a process has no tool, I build one. That is how TravelHub, the sales CRM for the Group's travel agency, came to be; along with The Bakery's online store with a payment gateway, and CoreFlow, my AI-powered operations hub."
+    ],
+    "cifras": [
+      {
+        "valor": "5",
+        "etiqueta": "brands under IT management"
+      },
+      {
+        "valor": "13+",
+        "etiqueta": "locations supported"
+      },
+      {
+        "valor": "15+",
+        "etiqueta": "clients served through Twin Mindz"
+      },
+      {
+        "valor": "7",
+        "etiqueta": "in-house systems in production or prototype"
+      }
+    ],
+    "reposOcultos": [
+      "Challenge-alura-JS",
+      "Game-amigo-secreto",
+      "juego-amigo-secreto",
+      "Juego-secreto",
+      "Final-Alura_geek",
+      "alura-geek",
+      "ConversorMonedas"
+    ]
+  },
+  "gestiones": [
+    {
+      "id": "outsourcing-ti-grupo-peguero",
+      "titulo": "External IT department for a 5-brand holding company",
+      "organizacion": "Grupo Corporativo Peguero",
+      "periodo": "Aug 2025 – present",
+      "categoria": "IT Management",
+      "contexto": "The Group (Fresarte, The Bakery, Viaja con Cami, Embelléceme and The Wellness House) was growing, with each company handling technology on its own.",
+      "accion": "Through Twin Mindz, I took over IT for the entire Group: infrastructure, email, domains, sales systems, user support and development, within the Shared Services Center that centralizes Finance, HR and Procurement.",
+      "resultado": "One owner and one technical standard across all 5 brands, with IT recognized as a staff function in the corporate manuals.",
+      "tags": [
+        "IT Governance",
+        "Outsourcing",
+        "Multi-site"
+      ]
+    },
+    {
+      "id": "microsoft-365",
+      "titulo": "Corporate email and Microsoft 365 administration",
+      "organizacion": "Grupo Corporativo Peguero",
+      "periodo": "2025 – present",
+      "categoria": "Infrastructure",
+      "contexto": "The companies were using scattered email accounts with no license control.",
+      "accion": "As Microsoft 365 global administrator, I designed and rolled out the Group's corporate email: purchasing and assigning Business Standard licenses, multiple domains and account usage audits.",
+      "resultado": "July 2026 audit: 23 accounts reviewed (19 active, 4 inactive identified), the baseline for monthly license control.",
+      "tags": [
+        "Microsoft 365",
+        "Entra ID",
+        "Licensing"
+      ]
+    },
+    {
+      "id": "gobierno-ti-manuales",
+      "titulo": "Holding restructuring and IT procedures",
+      "organizacion": "Grupo Corporativo Peguero · Twin Mindz",
+      "periodo": "Jan 2026 – present",
+      "categoria": "IT Governance",
+      "contexto": "The Group moved from independent companies to a holding structure and needed formal processes.",
+      "accion": "With Twin Mindz we delivered the holding plan, org chart, job manuals and KPIs. I then reviewed the IT procedure (PA.06) in the Shared Services Center manuals, and my feedback was incorporated into the new version.",
+      "resultado": "A formal IT procedure with commitments for technology inventory, license control and an IT budget.",
+      "tags": [
+        "Processes",
+        "Manuals",
+        "KPIs"
+      ]
+    },
+    {
+      "id": "tecnologia-sucursales",
+      "titulo": "Point-of-sale technology for stores and events",
+      "organizacion": "Fresarte · The Bakery",
+      "periodo": "2025 – present",
+      "categoria": "Operations",
+      "contexto": "13+ bakery locations running multiple systems: POS, ERP, e-invoicing and delivery platforms.",
+      "accion": "Support and coordination for Enhorabuena, HIOPOS, ADM Cloud, e-CF, card terminals, mPOS, scales and biometric devices, plus the PedidosYa and Uber Eats channels. mPOS setup for La Ruta Fresarte, with events in 20+ towns.",
+      "resultado": "Uninterrupted sales across stores, delivery and traveling events.",
+      "tags": [
+        "POS",
+        "Retail",
+        "Delivery",
+        "Support"
+      ]
+    },
+    {
+      "id": "dominios-web",
+      "titulo": "Domains, DNS and web presence for the brands",
+      "organizacion": "Grupo Corporativo Peguero · clientes de Twin Mindz",
+      "periodo": "2025 – present",
+      "categoria": "Infrastructure",
+      "contexto": "Domains and websites spread across several providers.",
+      "accion": "Domain and DNS management on Cloudflare and DreamHost, deployments on Railway, and integration of the white-label travel platform into the agency's website.",
+      "resultado": "Websites and online stores running with centrally managed SSL and DNS.",
+      "tags": [
+        "Cloudflare",
+        "DNS",
+        "DreamHost",
+        "Railway"
+      ]
+    },
+    {
+      "id": "nubes-documentales",
+      "titulo": "Storage and document strategy",
+      "organizacion": "Grupo Corporativo Peguero",
+      "periodo": "2026",
+      "categoria": "Infrastructure",
+      "contexto": "A Dropbox account with 40+ connected devices and scattered marketing content.",
+      "accion": "I set up Google Drive (10 TB) as the content repository for all 5 brands and proposed a Teams, SharePoint and OneDrive architecture with permissions by company and department.",
+      "resultado": "Centralized marketing content and a roadmap to move off Dropbox.",
+      "tags": [
+        "SharePoint",
+        "OneDrive",
+        "Google Drive"
+      ]
+    },
+    {
+      "id": "twin-mindz",
+      "titulo": "Co-founder and technical lead at Twin Mindz",
+      "organizacion": "Twin Mindz SRL",
+      "periodo": "Oct 2023 – present",
+      "categoria": "Entrepreneurship",
+      "contexto": "A digital content agency looking to grow into higher-value services.",
+      "accion": "I lead development, infrastructure, automation and financial tracking. I structured the client portfolio and designed the services quoting tool.",
+      "resultado": "Twin Mindz grew from a content agency into the IT and Marketing arm of a business group, with 15+ external clients.",
+      "tags": [
+        "Digital Strategy",
+        "Leadership",
+        "Technical Sales"
+      ]
+    }
+  ],
+  "proyectos": [
+    {
+      "id": "travelhub",
+      "nombre": "TravelHub",
+      "cliente": "Viaja con Cami (Carreteando con Cami)",
+      "descripcion": "CRM and sales system for the travel agency: leads, offers, sales and sales-team tracking. Includes role-based manuals and a finance module in development.",
+      "estado": "In production",
+      "stack": [],
+      "destacado": true,
+      "repo": "",
+      "demo": ""
+    },
+    {
+      "id": "the-bakery-tienda",
+      "nombre": "The Bakery online store",
+      "cliente": "The Bakery by Fresarte",
+      "descripcion": "Bakery e-commerce with catalog, cart and an online payment gateway.",
+      "estado": "In production",
+      "stack": [
+        "Cloudflare",
+        "DreamHost",
+        "Railway",
+        "Payment gateway"
+      ],
+      "destacado": true,
+      "repo": "https://github.com/JLK1425/TheBakery",
+      "demo": "https://thebakerybyfresarte.com"
+    },
+    {
+      "id": "coreflow",
+      "nombre": "CoreFlow",
+      "cliente": "Personal project",
+      "descripcion": "Personal operations hub: IT tickets by location, projects, Eisenhower matrix, habits and a hybrid (local + cloud) AI assistant. It triages Gmail and Microsoft 365 email with local AI and turns it into tasks.",
+      "estado": "In development",
+      "stack": [
+        "Next.js",
+        "FastAPI",
+        "SQLite",
+        "Ollama",
+        "Groq",
+        "OAuth"
+      ],
+      "destacado": true,
+      "repo": "",
+      "demo": ""
+    },
+    {
+      "id": "fresarte-dashboard",
+      "nombre": "Delivery operations dashboard",
+      "cliente": "Fresarte",
+      "descripcion": "KPI dashboard for delivery operations and sales reports by location.",
+      "estado": "In use",
+      "stack": [],
+      "destacado": false,
+      "repo": "",
+      "demo": ""
+    },
+    {
+      "id": "pedidos-inventario",
+      "nombre": "Orders and inventory platform",
+      "cliente": "The Bakery by Fresarte",
+      "descripcion": "Inventory management by product and size, with users and JWT authentication.",
+      "estado": "Built",
+      "stack": [
+        "JWT"
+      ],
+      "destacado": false,
+      "repo": "",
+      "demo": ""
+    },
+    {
+      "id": "club-fresarte",
+      "nombre": "Club Fresarte",
+      "cliente": "Fresarte",
+      "descripcion": "Loyalty program with points, tiers and an Apple Wallet / Google Wallet card for physical stores.",
+      "estado": "Prototype",
+      "stack": [
+        "Apple Wallet",
+        "Google Wallet"
+      ],
+      "destacado": false,
+      "repo": "",
+      "demo": ""
+    },
+    {
+      "id": "qr-resenas",
+      "nombre": "Google Reviews QR",
+      "cliente": "Fresarte",
+      "descripcion": "QR landing page that sends customers at each location to leave a Google review.",
+      "estado": "In use",
+      "stack": [],
+      "destacado": false,
+      "repo": "https://github.com/JLK1425/qr-google-reviews-fresarte",
+      "demo": ""
+    }
+  ],
+  "skills": {
+    "escala": [
+      "Basic",
+      "Intermediate",
+      "Advanced",
+      "Expert"
+    ],
+    "dominios": [
+      {
+        "nombre": "IT management & governance",
+        "items": [
+          {
+            "nombre": "Multi-site IT management",
+            "nivel": "Advanced",
+            "estado": "demostrado",
+            "evidencia": [
+              "outsourcing-ti-grupo-peguero"
+            ]
+          },
+          {
+            "nombre": "Processes, manuals & KPIs",
+            "nivel": "Advanced",
+            "estado": "demostrado",
+            "evidencia": [
+              "gobierno-ti-manuales"
+            ]
+          },
+          {
+            "nombre": "Vendor & budget management",
+            "nivel": "Intermediate",
+            "estado": "autodeclarado",
+            "evidencia": []
+          }
+        ]
+      },
+      {
+        "nombre": "Infrastructure & cloud",
+        "items": [
+          {
+            "nombre": "Microsoft 365 / Entra ID",
+            "nivel": "Advanced",
+            "estado": "demostrado",
+            "evidencia": [
+              "microsoft-365"
+            ]
+          },
+          {
+            "nombre": "DNS, domains & Cloudflare",
+            "nivel": "Advanced",
+            "estado": "demostrado",
+            "evidencia": [
+              "dominios-web"
+            ]
+          },
+          {
+            "nombre": "Networking",
+            "nivel": "Intermediate",
+            "estado": "autodeclarado",
+            "evidencia": []
+          },
+          {
+            "nombre": "POS & retail technology",
+            "nivel": "Advanced",
+            "estado": "demostrado",
+            "evidencia": [
+              "tecnologia-sucursales"
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Software development",
+        "items": [
+          {
+            "nombre": "Python / FastAPI",
+            "nivel": "Intermediate",
+            "estado": "demostrado",
+            "evidencia": [
+              "coreflow"
+            ]
+          },
+          {
+            "nombre": "JavaScript / React / Next.js",
+            "nivel": "Intermediate",
+            "estado": "demostrado",
+            "evidencia": [
+              "coreflow",
+              "the-bakery-tienda"
+            ]
+          },
+          {
+            "nombre": "Databases (SQL)",
+            "nivel": "Intermediate",
+            "estado": "autodeclarado",
+            "evidencia": []
+          },
+          {
+            "nombre": "Payment gateways",
+            "nivel": "Intermediate",
+            "estado": "demostrado",
+            "evidencia": [
+              "the-bakery-tienda"
+            ]
+          },
+          {
+            "nombre": "QA & testing",
+            "nivel": "Intermediate",
+            "estado": "autodeclarado",
+            "evidencia": []
+          }
+        ]
+      },
+      {
+        "nombre": "AI & automation",
+        "items": [
+          {
+            "nombre": "LLM integration (local & cloud)",
+            "nivel": "Intermediate",
+            "estado": "demostrado",
+            "evidencia": [
+              "coreflow"
+            ]
+          },
+          {
+            "nombre": "AI-assisted development",
+            "nivel": "Advanced",
+            "estado": "autodeclarado",
+            "evidencia": []
+          },
+          {
+            "nombre": "Workflow automation",
+            "nivel": "Intermediate",
+            "estado": "autodeclarado",
+            "evidencia": []
+          }
+        ]
+      }
+    ],
+    "pruebasPlanificadas": [
+      "Microsoft 365 & identity security",
+      "Python / FastAPI",
+      "DNS & networking",
+      "React / Next.js"
+    ]
+  },
+  "formacion": [
+    {
+      "titulo": "Information Technology",
+      "institucion": "Universidad del Caribe",
+      "periodo": ""
+    },
+    {
+      "titulo": "Front-end Web Development",
+      "institucion": "Oracle Next Education · Alura Latam",
+      "periodo": "2024"
+    },
+    {
+      "titulo": "Python",
+      "institucion": "Udemy",
+      "periodo": "2023"
+    },
+    {
+      "titulo": "QA Testing",
+      "institucion": "Udemy",
+      "periodo": "2023"
+    }
+  ]
+}
