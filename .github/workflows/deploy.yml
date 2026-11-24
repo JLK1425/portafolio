@@ -1,11 +1,12 @@
-name: Publicar portafolio en GitHub Pages
+name: Redirigir GitHub Pages a joelabreu.twinmindz.com
 
+# El portafolio se publica en Vercel (https://joelabreu.twinmindz.com).
+# Este flujo solo deja en jlk1425.github.io/portafolio una página que redirige allí.
 on:
   push:
     branches: [main]
+    paths: [".github/workflows/deploy.yml"]
   workflow_dispatch:
-  schedule:
-    - cron: "0 10 * * 1" # cada lunes, para refrescar los repos de GitHub
 
 permissions:
   contents: read
@@ -17,29 +18,34 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-      - run: npm ci
-      - run: npm run build
-        env:
-          BASE_PATH: /portafolio
-      - run: touch out/.nojekyll
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: out
-
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Crear página de redirección
+        run: |
+          mkdir -p site
+          cat > site/index.html <<'HTML'
+          <!DOCTYPE html>
+          <html lang="es">
+          <head>
+            <meta charset="utf-8">
+            <title>Joel Abreu — Portafolio</title>
+            <link rel="canonical" href="https://joelabreu.twinmindz.com/">
+            <meta http-equiv="refresh" content="0; url=https://joelabreu.twinmindz.com/">
+            <script>location.replace("https://joelabreu.twinmindz.com/" + location.hash);</script>
+          </head>
+          <body>
+            <p>El portafolio se mudó a <a href="https://joelabreu.twinmindz.com/">joelabreu.twinmindz.com</a>.</p>
+          </body>
+          </html>
+          HTML
+          cp site/index.html site/404.html
+          touch site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
       - id: deployment
         uses: actions/deploy-pages@v4

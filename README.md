@@ -24,7 +24,9 @@ Los repos públicos de GitHub que no estén ya en `proyectos` aparecen solos en 
 
 ## Publicar
 
-Se publica solo en https://jlk1425.github.io/portafolio con GitHub Actions (`.github/workflows/deploy.yml`) cada vez que se sube un cambio a `main`. En GitHub: Settings → Pages → Source: **GitHub Actions**.
+Se publica en **Vercel** (equipo Twin Mindz) en https://joelabreu.twinmindz.com cada vez que se sube un cambio a `main`. El subdominio es un CNAME en el DNS de DreamHost de twinmindz.com.
+
+`jlk1425.github.io/portafolio` solo redirige al dominio nuevo (`.github/workflows/deploy.yml`).
 
 ## Por confirmar en portfolio.json
 
