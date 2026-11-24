@@ -50,6 +50,9 @@ export interface Portfolio {
     foto: string;
     fotoPerfil?: string;
     cv: string;
+    web?: string;
+    /** Repos de GitHub que no se muestran (prácticas, cursos) */
+    reposOcultos?: string[];
     idiomas: string[];
     disponible: string;
     sobreMi: string[];
@@ -94,7 +97,9 @@ export async function getRepos(user: string): Promise<Repo[]> {
     );
     if (!res.ok) return [];
     const repos = (await res.json()) as Repo[];
-    const ocultos = new Set([user.toLowerCase(), "portafolio", `${user.toLowerCase()}.github.io`]);
+    const ocultos = new Set(
+      [user, "portafolio", `${user}.github.io`, ...(portfolio.perfil.reposOcultos ?? [])].map((n) => n.toLowerCase()),
+    );
     return repos.filter((r) => !r.fork && !ocultos.has(r.name.toLowerCase()));
   } catch {
     return [];

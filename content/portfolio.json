@@ -17,20 +17,43 @@
     "fotoPerfil": "/perfil.png",
     "web": "https://joelabreu.twinmindz.com",
     "cv": "",
-    "idiomas": ["Español (nativo)", "Inglés (fluido)"],
+    "idiomas": [
+      "Español (nativo)",
+      "Inglés (fluido)"
+    ],
     "disponible": "Abierto a proyectos de consultoría y desarrollo",
     "sobreMi": [
-      "Combino dos perfiles que rara vez van juntos: la gestión de TI de un grupo empresarial y el desarrollo de software a medida. Desde Twin Mindz, la consultora que cofundé, llevo como staff externo la tecnología de Grupo Corporativo Peguero: infraestructura, correo corporativo, dominios, sistemas de punto de venta, soporte y gobierno de TI.",
-      "Cuando un proceso no tiene herramienta, la construyo. Así nacieron TravelHub, el CRM de ventas de la agencia de viajes del Grupo; la tienda en línea de The Bakery con pagos CardNet en producción; y CoreFlow, mi centro de operaciones con IA."
+      "Combino dos perfiles que rara vez van juntos: la gestión de TI de un grupo empresarial y el desarrollo de software a medida. Desde Twin Mindz, la empresa de tecnología y marketing digital que cofundé en 2023, dirijo la tecnología de Grupo Corporativo Peguero: infraestructura, correo corporativo, dominios, sistemas de punto de venta, soporte y gobierno de TI.",
+      "Cuando un proceso no tiene herramienta, la construyo. Así nacieron TravelHub, el CRM de ventas de la agencia de viajes del Grupo; la tienda en línea de The Bakery con pasarela de pagos; y CoreFlow, mi centro de operaciones con IA."
     ],
     "cifras": [
-      { "valor": "5", "etiqueta": "marcas bajo gestión de TI" },
-      { "valor": "13+", "etiqueta": "sucursales con soporte" },
-      { "valor": "15+", "etiqueta": "clientes atendidos desde Twin Mindz" },
-      { "valor": "7", "etiqueta": "sistemas propios en producción o prototipo" }
+      {
+        "valor": "5",
+        "etiqueta": "marcas bajo gestión de TI"
+      },
+      {
+        "valor": "13+",
+        "etiqueta": "sucursales con soporte"
+      },
+      {
+        "valor": "15+",
+        "etiqueta": "clientes atendidos desde Twin Mindz"
+      },
+      {
+        "valor": "7",
+        "etiqueta": "sistemas propios en producción o prototipo"
+      }
+    ],
+    "reposOcultos": [
+      "Challenge-alura-JS",
+      "Game-amigo-secreto",
+      "juego-amigo-secreto",
+      "Juego-secreto",
+      "Final-Alura_geek",
+      "alura-geek",
+      "ConversorMonedas"
     ]
   },
-
   "gestiones": [
     {
       "id": "outsourcing-ti-grupo-peguero",
@@ -41,7 +64,11 @@
       "contexto": "El Grupo (Fresarte, The Bakery, Viaja con Cami, Embelléceme y The Wellness House) crecía con cada empresa resolviendo la tecnología por su cuenta.",
       "accion": "Asumí la TI de todo el Grupo desde Twin Mindz: infraestructura, correo, dominios, sistemas de venta, soporte a usuarios y desarrollo, dentro del Centro de Servicios Compartidos que centraliza Finanzas, RRHH y Compras.",
       "resultado": "Un solo responsable y un solo criterio técnico para las 5 marcas, con la TI reconocida como área staff en los manuales corporativos.",
-      "tags": ["Gobierno de TI", "Outsourcing", "Multisede"]
+      "tags": [
+        "Gobierno de TI",
+        "Outsourcing",
+        "Multisede"
+      ]
     },
     {
       "id": "microsoft-365",
@@ -52,7 +79,11 @@
       "contexto": "Las empresas usaban correos sueltos y sin control de licencias.",
       "accion": "Diseñé y monté el proyecto de correo corporativo del Grupo como administrador global de Microsoft 365: compra y asignación de licencias Business Standard, varios dominios y auditoría de uso de cuentas.",
       "resultado": "Auditoría de jul-2026: 23 cuentas revisadas (19 activas, 4 inactivas identificadas), base para el control mensual de licencias.",
-      "tags": ["Microsoft 365", "Entra ID", "Licenciamiento"]
+      "tags": [
+        "Microsoft 365",
+        "Entra ID",
+        "Licenciamiento"
+      ]
     },
     {
       "id": "gobierno-ti-manuales",
@@ -63,7 +94,11 @@
       "contexto": "El Grupo pasó de empresas independientes a un holding y necesitaba estructura formal.",
       "accion": "Con Twin Mindz entregamos el plan de holding, organigrama, manuales de funciones y KPIs. Después revisé el procedimiento de TI (PA.06) de los manuales del CSC y mis observaciones se incorporaron a la versión nueva.",
       "resultado": "Procedimiento de TI formal, con compromisos de inventario tecnológico, control de licencias y presupuesto de TI.",
-      "tags": ["Procesos", "Manuales", "KPIs"]
+      "tags": [
+        "Procesos",
+        "Manuales",
+        "KPIs"
+      ]
     },
     {
       "id": "tecnologia-sucursales",
@@ -74,7 +109,12 @@
       "contexto": "Más de 13 sucursales de repostería operando con varios sistemas: POS, ERP, facturación electrónica y plataformas de delivery.",
       "accion": "Soporte y coordinación de Enhorabuena, HIOPOS, ADM Cloud, e-CF, verifones, mPOS, balanzas y biométricos, y de los canales PedidosYa y Uber Eats. Preparación de mPOS para La Ruta Fresarte, con eventos en más de 20 pueblos.",
       "resultado": "Venta continua en tiendas, delivery y eventos itinerantes.",
-      "tags": ["POS", "Retail", "Delivery", "Soporte"]
+      "tags": [
+        "POS",
+        "Retail",
+        "Delivery",
+        "Soporte"
+      ]
     },
     {
       "id": "dominios-web",
@@ -85,7 +125,12 @@
       "contexto": "Dominios y sitios repartidos entre varios proveedores.",
       "accion": "Administración de dominios y DNS en Cloudflare y DreamHost, despliegues en Railway e integración de la plataforma de marca blanca en la web de la agencia de viajes.",
       "resultado": "Webs y tiendas en línea operando con SSL y DNS administrados de forma centralizada.",
-      "tags": ["Cloudflare", "DNS", "DreamHost", "Railway"]
+      "tags": [
+        "Cloudflare",
+        "DNS",
+        "DreamHost",
+        "Railway"
+      ]
     },
     {
       "id": "nubes-documentales",
@@ -96,21 +141,28 @@
       "contexto": "Una cuenta de Dropbox con más de 40 dispositivos conectados y contenido de marketing disperso.",
       "accion": "Habilité Google Drive (10 TB) como repositorio de contenido de las 5 marcas y propuse una arquitectura en Teams, SharePoint y OneDrive con permisos por empresa y área.",
       "resultado": "Contenido de marketing centralizado y una hoja de ruta para salir de Dropbox.",
-      "tags": ["SharePoint", "OneDrive", "Google Drive"]
+      "tags": [
+        "SharePoint",
+        "OneDrive",
+        "Google Drive"
+      ]
     },
     {
       "id": "twin-mindz",
       "titulo": "Cofundación y dirección técnica de Twin Mindz",
       "organizacion": "Twin Mindz SRL",
-      "periodo": "abr 2025 – actualidad",
+      "periodo": "oct 2023 – actualidad",
       "categoria": "Emprendimiento",
       "contexto": "Agencia de contenido digital que quería crecer hacia servicios de mayor valor.",
       "accion": "Dirijo desarrollo, infraestructura, automatizaciones y seguimiento financiero. Estructuré la cartera de clientes y diseñé el cotizador de servicios.",
-      "resultado": "La consultora pasó de agencia de contenido a staff de TI y Marketing de un grupo empresarial, con más de 15 clientes externos.",
-      "tags": ["Consultoría", "Liderazgo", "Ventas técnicas"]
+      "resultado": "Twin Mindz pasó de agencia de contenido a área de TI y Marketing de un grupo empresarial, con más de 15 clientes externos.",
+      "tags": [
+        "Estrategia digital",
+        "Liderazgo",
+        "Ventas técnicas"
+      ]
     }
   ],
-
   "proyectos": [
     {
       "id": "travelhub",
@@ -127,9 +179,14 @@
       "id": "the-bakery-tienda",
       "nombre": "Tienda en línea The Bakery",
       "cliente": "The Bakery by Fresarte",
-      "descripcion": "E-commerce de repostería con pasarela de pagos CardNet en producción desde abril de 2026.",
+      "descripcion": "E-commerce de repostería con catálogo, carrito y pasarela de pagos en línea.",
       "estado": "En producción",
-      "stack": ["Cloudflare", "DreamHost", "Railway", "CardNet"],
+      "stack": [
+        "Cloudflare",
+        "DreamHost",
+        "Railway",
+        "Pasarela de pagos"
+      ],
       "destacado": true,
       "repo": "https://github.com/JLK1425/TheBakery",
       "demo": "https://thebakerybyfresarte.com"
@@ -140,7 +197,14 @@
       "cliente": "Proyecto propio",
       "descripcion": "Centro de operaciones personal: tickets de TI por sucursal, proyectos, matriz de Eisenhower, hábitos y un asistente de IA híbrido (local y en la nube). Clasifica correos de Gmail y Microsoft 365 con IA local y los convierte en tareas.",
       "estado": "En desarrollo",
-      "stack": ["Next.js", "FastAPI", "SQLite", "Ollama", "Groq", "OAuth"],
+      "stack": [
+        "Next.js",
+        "FastAPI",
+        "SQLite",
+        "Ollama",
+        "Groq",
+        "OAuth"
+      ],
       "destacado": true,
       "repo": "",
       "demo": ""
@@ -162,7 +226,9 @@
       "cliente": "The Bakery by Fresarte",
       "descripcion": "Administración de inventario por producto y tamaño, con usuarios y autenticación JWT.",
       "estado": "Desarrollado",
-      "stack": ["JWT"],
+      "stack": [
+        "JWT"
+      ],
       "destacado": false,
       "repo": "",
       "demo": ""
@@ -173,7 +239,10 @@
       "cliente": "Fresarte",
       "descripcion": "Programa de lealtad con puntos, niveles y tarjeta en Apple Wallet y Google Wallet para tiendas físicas.",
       "estado": "Prototipo",
-      "stack": ["Apple Wallet", "Google Wallet"],
+      "stack": [
+        "Apple Wallet",
+        "Google Wallet"
+      ],
       "destacado": false,
       "repo": "",
       "demo": ""
@@ -190,43 +259,141 @@
       "demo": ""
     }
   ],
-
   "skills": {
-    "escala": ["Básico", "Intermedio", "Avanzado", "Experto"],
+    "escala": [
+      "Básico",
+      "Intermedio",
+      "Avanzado",
+      "Experto"
+    ],
     "dominios": [
       {
         "nombre": "Gestión y gobierno de TI",
         "items": [
-          { "nombre": "Gestión de TI multisede", "nivel": "Avanzado", "estado": "demostrado", "evidencia": ["outsourcing-ti-grupo-peguero"] },
-          { "nombre": "Procesos, manuales y KPIs", "nivel": "Avanzado", "estado": "demostrado", "evidencia": ["gobierno-ti-manuales"] },
-          { "nombre": "Gestión de proveedores y presupuesto", "nivel": "Intermedio", "estado": "autodeclarado", "evidencia": [] }
+          {
+            "nombre": "Gestión de TI multisede",
+            "nivel": "Avanzado",
+            "estado": "demostrado",
+            "evidencia": [
+              "outsourcing-ti-grupo-peguero"
+            ]
+          },
+          {
+            "nombre": "Procesos, manuales y KPIs",
+            "nivel": "Avanzado",
+            "estado": "demostrado",
+            "evidencia": [
+              "gobierno-ti-manuales"
+            ]
+          },
+          {
+            "nombre": "Gestión de proveedores y presupuesto",
+            "nivel": "Intermedio",
+            "estado": "autodeclarado",
+            "evidencia": []
+          }
         ]
       },
       {
         "nombre": "Infraestructura y nube",
         "items": [
-          { "nombre": "Microsoft 365 / Entra ID", "nivel": "Avanzado", "estado": "demostrado", "evidencia": ["microsoft-365"] },
-          { "nombre": "DNS, dominios y Cloudflare", "nivel": "Avanzado", "estado": "demostrado", "evidencia": ["dominios-web"] },
-          { "nombre": "Redes", "nivel": "Intermedio", "estado": "autodeclarado", "evidencia": [] },
-          { "nombre": "POS y tecnología retail", "nivel": "Avanzado", "estado": "demostrado", "evidencia": ["tecnologia-sucursales"] }
+          {
+            "nombre": "Microsoft 365 / Entra ID",
+            "nivel": "Avanzado",
+            "estado": "demostrado",
+            "evidencia": [
+              "microsoft-365"
+            ]
+          },
+          {
+            "nombre": "DNS, dominios y Cloudflare",
+            "nivel": "Avanzado",
+            "estado": "demostrado",
+            "evidencia": [
+              "dominios-web"
+            ]
+          },
+          {
+            "nombre": "Redes",
+            "nivel": "Intermedio",
+            "estado": "autodeclarado",
+            "evidencia": []
+          },
+          {
+            "nombre": "POS y tecnología retail",
+            "nivel": "Avanzado",
+            "estado": "demostrado",
+            "evidencia": [
+              "tecnologia-sucursales"
+            ]
+          }
         ]
       },
       {
         "nombre": "Desarrollo de software",
         "items": [
-          { "nombre": "Python / FastAPI", "nivel": "Intermedio", "estado": "demostrado", "evidencia": ["coreflow"] },
-          { "nombre": "JavaScript / React / Next.js", "nivel": "Intermedio", "estado": "demostrado", "evidencia": ["coreflow", "the-bakery-tienda"] },
-          { "nombre": "Bases de datos (SQL)", "nivel": "Intermedio", "estado": "autodeclarado", "evidencia": [] },
-          { "nombre": "Pasarelas de pago", "nivel": "Intermedio", "estado": "demostrado", "evidencia": ["the-bakery-tienda"] },
-          { "nombre": "QA y testing", "nivel": "Intermedio", "estado": "autodeclarado", "evidencia": [] }
+          {
+            "nombre": "Python / FastAPI",
+            "nivel": "Intermedio",
+            "estado": "demostrado",
+            "evidencia": [
+              "coreflow"
+            ]
+          },
+          {
+            "nombre": "JavaScript / React / Next.js",
+            "nivel": "Intermedio",
+            "estado": "demostrado",
+            "evidencia": [
+              "coreflow",
+              "the-bakery-tienda"
+            ]
+          },
+          {
+            "nombre": "Bases de datos (SQL)",
+            "nivel": "Intermedio",
+            "estado": "autodeclarado",
+            "evidencia": []
+          },
+          {
+            "nombre": "Pasarelas de pago",
+            "nivel": "Intermedio",
+            "estado": "demostrado",
+            "evidencia": [
+              "the-bakery-tienda"
+            ]
+          },
+          {
+            "nombre": "QA y testing",
+            "nivel": "Intermedio",
+            "estado": "autodeclarado",
+            "evidencia": []
+          }
         ]
       },
       {
         "nombre": "IA y automatización",
         "items": [
-          { "nombre": "Integración de LLMs (local y nube)", "nivel": "Intermedio", "estado": "demostrado", "evidencia": ["coreflow"] },
-          { "nombre": "Desarrollo asistido por IA", "nivel": "Avanzado", "estado": "autodeclarado", "evidencia": [] },
-          { "nombre": "Automatización de flujos", "nivel": "Intermedio", "estado": "autodeclarado", "evidencia": [] }
+          {
+            "nombre": "Integración de LLMs (local y nube)",
+            "nivel": "Intermedio",
+            "estado": "demostrado",
+            "evidencia": [
+              "coreflow"
+            ]
+          },
+          {
+            "nombre": "Desarrollo asistido por IA",
+            "nivel": "Avanzado",
+            "estado": "autodeclarado",
+            "evidencia": []
+          },
+          {
+            "nombre": "Automatización de flujos",
+            "nivel": "Intermedio",
+            "estado": "autodeclarado",
+            "evidencia": []
+          }
         ]
       }
     ],
@@ -237,11 +404,26 @@
       "React / Next.js"
     ]
   },
-
   "formacion": [
-    { "titulo": "Tecnología de la Información", "institucion": "Universidad del Caribe", "periodo": "" },
-    { "titulo": "Desarrollo Web Front-end", "institucion": "Oracle Next Education · Alura Latam", "periodo": "2024" },
-    { "titulo": "Python", "institucion": "Udemy", "periodo": "2023" },
-    { "titulo": "QA Testing", "institucion": "Udemy", "periodo": "2023" }
+    {
+      "titulo": "Tecnología de la Información",
+      "institucion": "Universidad del Caribe",
+      "periodo": ""
+    },
+    {
+      "titulo": "Desarrollo Web Front-end",
+      "institucion": "Oracle Next Education · Alura Latam",
+      "periodo": "2024"
+    },
+    {
+      "titulo": "Python",
+      "institucion": "Udemy",
+      "periodo": "2023"
+    },
+    {
+      "titulo": "QA Testing",
+      "institucion": "Udemy",
+      "periodo": "2023"
+    }
   ]
 }
